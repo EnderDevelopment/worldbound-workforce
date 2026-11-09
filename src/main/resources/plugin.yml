@@ -1,0 +1,13 @@
+name: AutomatedWorkers
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  worker:
+    description: Assign nearby mobs automated worker jobs.
+    usage: /worker <assign|chest|stop|status>
+    permission: automatedworkers.use
+permissions:
+  automatedworkers.use:
+    description: Allows assigning and managing automated workers.
+    default: true
